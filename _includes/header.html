@@ -9,7 +9,7 @@
         gtag('config', 'UA-108821978-1');
 </script>
 
-<title>Computer & Internet Security</title>
+<title>SEED Emulator</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://w3schools.com/w3css/4/w3.css">
@@ -40,18 +40,24 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "ariel", sans-serif}
           title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 
     <!-- menu items (some of them will be hidden for medium/small screens -->
-    <a href="{{ site.baseurl }}/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-button w3-padding-large w3-hover-white">Documents</button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="{{ site.baseurl }}/item1.html" class="w3-bar-item w3-button">Item 1</a>
-        <a href="{{ site.baseurl }}/item2.html" class="w3-bar-item w3-button">Item 2</a>
-      </div>
+    <a href="{{ site.baseurl }}/index.html" 
+       class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+    <a href="{{ site.baseurl }}/internet.html"
+       class="w3-bar-item w3-button w3-padding-large w3-hover-white">Internet</a>
+    <a href="{{ site.baseurl }}/blockchain.html" 
+       class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Blockchain</a>
+    <a href="{{ site.baseurl }}/yom.html" 
+       class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-padding-large w3-hover-white">Yesterday-Once-More</a>
+    <a href="{{ site.baseurl }}/chinese/" 
+       class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-padding-large w3-hover-white">Chinese</a>
+
+    <div class="w3-dropdown-hover w3-hide-medium w3-hide-small">
+       <button class="w3-button w3-padding-large w3-hover-white">More</button>
+       <div class="w3-dropdown-content w3-bar-block w3-card-4">
+         <a href="{{ site.baseurl }}/talks.html" class="w3-bar-item w3-button">Talks</a>
+         <a href="{{ site.baseurl }}/contact.html" class="w3-bar-item w3-button">Contact</a>
+       </div>
     </div>
-    <a href="{{ site.baseurl }}/chinese/index.html" 
-          class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-padding-large w3-hover-white">Chinese</a>
-    <a href="{{ site.baseurl }}/contact.html" 
-          class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-padding-large w3-hover-white">Contact</a>
   </div>
 
   <!-- Navbar on medium screens -->
