@@ -4,6 +4,14 @@
 ---
 
 
+## Table of Contents 
+{: .no_toc}
+
+* will be replaced by ToC 
+{:toc}
+
+---
+
 
 <a id="default-settings"></a>
 ## Default Settings

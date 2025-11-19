@@ -4,20 +4,20 @@
 ---
 
 
-
 We show how to build a simple Internet Emulator, consisting 
 of three stub autonomous systems and one transit autonomous system. 
 We only cover the basic features. 
 The complete code and more detailed explanation 
 can be found in the example [A01-transit-as](../../examples/A01-transit-as).
 
-- [Create stub autonomous systems](#create-stub-as)
-- [Create transit autonomous system](#create-transit-as)
-- [Conduct BGP Peering](#bgp-peering)
-- [Adding layers and conduct rendering](#rendering)
-- [Compilation](#compilation)
-- [Run emulation](#run-emulation)
 
+## Table of Contents 
+{: .no_toc}
+
+* will be replaced by ToC 
+{:toc}
+
+---
 
 <a id="create-stub-as"></a>
 ## Create the base layer and Internet Exchanges 

@@ -4,10 +4,13 @@
 ---
 
 
-- [Generate the docker images for different platforms](#platform)
-- [Use pre-built image on selected nodes](#prebuilt-image)
+## Table of Contents 
+{: .no_toc}
 
+* will be replaced by ToC 
+{:toc}
 
+---
 
 <a id="platform"></a>
 ## Generate the docker images for different platforms

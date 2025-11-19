@@ -3,11 +3,14 @@
  title:  BGP Peering
 ---
 
-- [BGP Peering Using Route Server](#bgp-rs-peering)
-- [BGP Private Peering](#bgp-private-peering)
-- [Peer Relationship](#peer-relationship)
-- [Special BGP Router: Connecting to the Real World](#connect-to-realworld)
 
+## Table of Contents 
+{: .no_toc}
+
+* will be replaced by ToC 
+{:toc}
+
+---
 
 <a id="bgp-rs-peering"></a>
 ## BGP Peering Using Route Server

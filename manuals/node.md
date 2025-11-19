@@ -23,6 +23,11 @@ node  = as152.getHost('newhost')
 ```
 
 
+* will be replaced by ToC 
+{:toc}
+
+---
+
 ## Install software via `apt-get`
 
 If we need to install additional software on a node, 
