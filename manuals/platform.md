@@ -1,6 +1,6 @@
 ---
  layout: default
- title:  Docker Images
+ title:  Supporting AMD and ARM Platforms
 ---
 
 

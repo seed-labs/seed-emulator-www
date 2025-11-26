@@ -12,7 +12,7 @@
   - [Create an emulator: the overall flow](./overall_flow.html)
   - [IP address assignment](./ip_address.html)
   - [BGP Peering and Connecting to Real World](./bgp.html) 
-  - [Node customization](./node.html): install software, add startup command, assign hostname, etc.
+  - [Node customization](./node_customization.html): install software, add startup command, etc.
   - [Compilation](./compiler.html): generate emulation files (docker files)
   - [Internal Routing](./routing.html): IBGP and OSPF setup 
   - [Generating docker images for different platforms](./platform.html): support AMD and ARM platforms
@@ -32,10 +32,9 @@
   - [Botnet]({{ site.example-url }}/internet/B22_botnet/)
   - [Darknet (Tor)]({{ site.example-url }}/internet/B23_darknet_tor/)
   - [The Hosts file (add IP-hostname mappings)]({{ site.example-url }}/internet/B21_etc_hosts/):
-    This example shows how to add ip-hostname mappings to the `/etc/hosts` file. With this,
-    we can use hostnames instead of IP addresses.
+    add ip-hostname mappings to the `/etc/hosts` file
   - [IPFS (InterPlanetary File System)]({{ site.example-url }}/internet/B26_ipfs_kubo):
-    This example shows how to set up an IPFS file system in the emulator.
+    set up IPFS file system in the emulator.
   - [IPFS Kubo](./kubo.html)
 
 

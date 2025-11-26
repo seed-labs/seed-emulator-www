@@ -24,7 +24,7 @@ is to tell the compiler that we want to attach an existing container to
 a network inside the emulator. The compiler will then generate the corresponding
 entry inside the `docker-compose.yml` file.
 
-See [this example]({{ site.example-url }}/basic/method_1/) for details.
+See [this example]({{ site.example-url }}/basic/A11_add_containers_new/method_1/) for details.
 
 
 ## Method 2: add custom containers during the runtime 
@@ -34,7 +34,7 @@ Using this method, we first start the emulator, and then start the additional co
 from the existing images. We attach these containers to the networks created by the emulator.
 This way, the new containers becomes part of the emultion.
 
-See [this example](../A10_add_containers/) for details.
+See [this example]({{ site.example-url }}/basic/A10_add_containers/) for details.
 
 
 
