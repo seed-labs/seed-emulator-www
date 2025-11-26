@@ -1,6 +1,6 @@
 ---
  layout: default
- title:  BGP Peering
+ title:  BGP Peering 
 ---
 
 
@@ -30,8 +30,7 @@ always be `Peer` relationship.
 The eBGP layer sets up peering by looking for the router node of the given
 autonomous system from within the internet exchange network. So as long as
 there is a router of that AS in the exchange network (i.e., joined the IX with
-`as15X_router.joinNetwork('ix100')`), the eBGP layer should be able to set up
-the peeing.
+`joinNetwork()` API), the eBGP layer should be able to set up the peeing.
 
 
 <a id="bgp-private-peering"></a>
@@ -110,7 +109,7 @@ router.joinNetwork('ix101', address = '10.101.0.118')
 The `createRealWorldRouter()` API takes three parameters:
 
 - `name`: name of the node.
-- `hideHops`: enable hide hops feature. When `True`, the router will hide real
+- `hideHops`: enable "hide hops" feature. When `True`, the router will hide real
   world hops from traceroute. This works by setting TTL = 64 to all real world
   destinations on `POSTROUTING`. Default to `True`.
 - `prefixes`: list of prefix or `None` (default). 

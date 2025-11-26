@@ -1,6 +1,6 @@
 ---
  layout: default
- title:  Node
+ title:  Node Customization
 ---
 
 
@@ -116,7 +116,7 @@ run the command in the background.
 ## Add entries to /etc/hosts 
 
 We can assign a hostname to a node. A mapping from this hostname to the
-node's IP address will be added to the `/etc/hosts` file on every node. 
+IP address of the node will be added to the `/etc/hosts` file on every node. 
 
 ```python
 node.addHostName('example.com')

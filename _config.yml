@@ -40,3 +40,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Additional Site Settings
+example-url: "https://github.com/seed-labs/seed-emulator/tree/master/examples"
