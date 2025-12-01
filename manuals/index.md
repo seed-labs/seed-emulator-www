@@ -5,16 +5,16 @@
 
 ## Environment Setup
 
-  - [Development environment setup](./env.html): 
+  - [Set up development environment](./env.html)
 
 ## Core Elements and Features
 
   - [Create an emulator: the overall flow](./overall_flow.html)
   - [IP address assignment](./ip_address.html)
-  - [BGP Peering and Connecting to Real World](./bgp.html) 
+  - [BGP peering and connecting to real world](./bgp.html) 
   - [Node customization](./node_customization.html): install software, add startup command, etc.
   - [Compilation](./compiler.html): generate emulation files (docker files)
-  - [Internal Routing](./routing.html): IBGP and OSPF setup 
+  - [Internal routing](./routing.html): IBGP and OSPF setup 
   - [Generating docker images for different platforms](./platform.html): support AMD and ARM platforms
   - [Adding custom containers](./custom_container.html)
   - [IP anycast]({{ site.example-url }}/internet/B24_ip_anycast/)
@@ -25,7 +25,7 @@
 
 ## Components
 
-  - [Component and Binding](./component.html): the design philosophy
+  - [Component and binding](./component.html): the design philosophy
   - [DNS Infrastructure](./components/dns.html)
   - [Public Key Infrastructure (PKI)](./ca.html): Set up a PKI inside the emulator.
   - [DHCP server]({{ site.example-url }}/internet/B20_dhcp/): Set up DHCP server on a network

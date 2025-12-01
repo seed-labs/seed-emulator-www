@@ -81,3 +81,7 @@ as350.createRouter('router0').joinNetwork('net0').joinNetwork(netname='ix100', a
 
 The actual automatic assignment scheme is implemented in the `AddressAssignmentConstraint` class. If you want to implement your own automatic assignment scheme, you can derive from this class (i.e., implement a subclass), and then implement your own assignment scheme inside the class. Both `createInternetExchange` and `createNetwork` accept the `aac` argument, which takes an instance of the `AddressAssignmentConstraint` class. By default, `aac` is set to `None`, so the default implementation class is used. 
 
+
+## Notes
+
+When selecting the IP prefixes for networks, we must avoid using `0.x.x.x`. These IP prefixes are reserved and not routable; the BIRD BGP software enforces this non-routable rule. 
